@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Actividad 1 - Infografía</title>
+<style>
+    * {margin:0; padding:0; box-sizing:border-box;}
+    body {font-family:'Arial', sans-serif; background: linear-gradient(120deg, #2c3e50 0%, #34495e 50%, #2c3e50 100%); padding:20px;}
+    .container {max-width:1200px; margin:0 auto; background:#ecf0f1; border-radius:15px; box-shadow:0 15px 40px rgba(0,0,0,0.4); overflow:hidden; padding-bottom:40px;}
+    .header {background: linear-gradient(to right, #16a085, #1abc9c); color:white; padding:50px 30px; text-align:center; border-bottom:5px solid #0e8c73;}
+    .header h1 {font-size:2.8em; margin-bottom:15px; text-transform:uppercase; letter-spacing:3px; text-shadow:2px 2px 4px rgba(0,0,0,0.3);}
+    .header .subtitle {font-size:1.4em; font-weight:300; opacity:0.95;}
+    .infografia {display:flex; flex-wrap:wrap; gap:20px; justify-content:center; padding:30px;}
+    .concepto {background: linear-gradient(135deg, #16a085 0%, #1abc9c 100%); color:white; flex:1 1 calc(48% - 20px); border-radius:12px; padding:25px; box-shadow:0 5px 20px rgba(26,188,156,0.4); transition: transform 0.3s ease; border:2px solid rgba(255,255,255,0.2);}
+    .concepto:hover {transform: translateY(-5px); box-shadow:0 8px 25px rgba(26,188,156,0.5);}
+    .concepto h3 {font-size:1.5em; margin-bottom:10px;}
+    .concepto p {font-size:1em; line-height:1.6; margin-bottom:8px;}
+    .back-button {background: linear-gradient(135deg, #16a085 0%, #1abc9c 100%); color:white; text-decoration:none; padding:15px 30px; border-radius:10px; display:inline-block; font-weight:bold; margin:30px auto 0; box-shadow:0 5px 15px rgba(26,188,156,0.3); transition: transform 0.3s ease;}
+    .back-button:hover {transform: translateY(-5px); box-shadow:0 8px 20px rgba(26,188,156,0.4);}
+    @media(max-width:900px){.concepto{flex:1 1 100%;}}
+</style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <h1>📝 Actividad 1</h1>
+        <p class="subtitle">Infografía: Gerencia en TI</p>
+    </div>
+
+    <div class="infografia">
+        <div class="concepto">
+            <h3>Planificación Estratégica</h3>
+            <p><strong>Definición:</strong> Establecer objetivos y estrategias a largo plazo para guiar proyectos y recursos.</p>
+            <p><strong>Ejemplo:</strong> Un ingeniero planifica el desarrollo de un software de gestión hospitalaria, definiendo fases, asignando recursos y estimando tiempos de entrega.</p>
+            <p><strong>Fuente:</strong> Gestión de Proyectos en TI, Autor X, 2020</p>
+        </div>
+
+        <div class="concepto">
+            <h3>Liderazgo</h3>
+            <p><strong>Definición:</strong> Capacidad de guiar y motivar a un equipo hacia objetivos comunes.</p>
+            <p><strong>Ejemplo:</strong> Lidera un equipo de desarrollo de aplicaciones móviles, asignando tareas según fortalezas y asegurando cumplimiento de metas.</p>
+            <p><strong>Fuente:</strong> Artículo: Liderazgo en Tecnología, Revista Y, 2019</p>
+        </div>
+
+        <div class="concepto">
+            <h3>Gestión del Cambio</h3>
+            <p><strong>Definición:</strong> Adaptar procesos y equipos a nuevas condiciones o tecnologías.</p>
+            <p><strong>Ejemplo:</strong> Implementa un nuevo sistema de control de versiones en un equipo de programación y capacita a los miembros para minimizar errores y resistencias.</p>
+            <p><strong>Fuente:</strong> Cambio Organizacional en TI, Autor Z, 2018</p>
+        </div>
+
+        <div class="concepto">
+            <h3>Toma de Decisiones</h3>
+            <p><strong>Definición:</strong> Selección de la mejor alternativa considerando impactos y resultados.</p>
+            <p><strong>Ejemplo:</strong> Decide entre dos frameworks de desarrollo para un proyecto web, evaluando velocidad, compatibilidad y soporte técnico.</p>
+            <p><strong>Fuente:</strong> Decisiones Estratégicas en TI, Revista W, 2020</p>
+        </div>
+
+        <div class="concepto">
+            <h3>Estructura Organizacional</h3>
+            <p><strong>Definición:</strong> Distribución de roles y responsabilidades dentro de un equipo.</p>
+            <p><strong>Ejemplo:</strong> Organiza un equipo de desarrollo en front-end, back-end y QA, asegurando comunicación efectiva y eficiencia en la entrega de software.</p>
+            <p><strong>Fuente:</strong> Organización de Equipos IT, Autor V, 2019</p>
+        </div>
+    </div>
+
+    <a href="modulo1.html" class="back-button">⬅ Regresar al Módulo 1</a>
+</div>
+</body>
+</html>
+

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Módulo 1 - Gerencia</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(120deg, #2c3e50 0%, #34495e 50%, #2c3e50 100%);
+            min-height: 100vh; padding: 20px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: #ecf0f1;
+            border-radius: 15px;
+            box-shadow: 0 15px 40px rgba(0,0,0,0.4);
+            overflow: hidden;
+        }
+        .header {
+            background: linear-gradient(to right, #16a085, #1abc9c);
+            color: white;
+            padding: 50px 30px;
+            text-align: center;
+            border-bottom: 5px solid #0e8c73;
+        }
+        .header h1 { font-size: 2.8em; margin-bottom: 15px; text-transform: uppercase; letter-spacing: 3px; text-shadow: 2px 2px 4px rgba(0,0,0,0.3); }
+        .header .subtitle { font-size: 1.4em; font-weight: 300; opacity: 0.95; }
+        .content { padding: 40px; display: flex; flex-direction: column; gap: 30px; }
+        .section {
+            background: white;
+            padding: 35px;
+            border-radius: 12px;
+            border-left: 6px solid #1abc9c;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+        }
+        .section h2 {
+            color: #2c3e50; font-size: 2em; margin-bottom: 25px;
+            padding-bottom: 15px; border-bottom: 3px solid #1abc9c;
+            display: flex; align-items: center; gap: 12px;
+        }
+        .section-content { color: #34495e; line-height: 1.8; font-size: 1.05em; }
+        .activity-button {
+            margin-top: 20px; padding: 15px 35px; border-radius: 8px;
+            font-size: 1.05em; font-weight: bold; text-transform: uppercase;
+            letter-spacing: 1px; border: none; cursor: pointer;
+            color: white; background: linear-gradient(135deg, #16a085 0%, #1abc9c 100%);
+            transition: all 0.3s ease;
+        }
+        .activity-button:hover { transform: translateY(-3px); box-shadow: 0 6px 20px rgba(26, 188, 156, 0.5); }
+        @media (max-width: 768px) { .content { padding: 20px; } }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🎓 MÓDULO 1 - LA GERENCIA</h1>
+            <p class="subtitle">Gestión y Mercadeo en Proyectos de TI</p>
+        </div>
+
+        <div class="content">
+
+            <!-- Actividad 1 -->
+            <div class="section">
+                <h2>📊 Actividad 1: Infografía - Conceptos Gerenciales en TI</h2>
+                <div class="section-content">
+                    <p>Haz clic en la siguiente actividad para ver la infografía completa sobre los cinco conceptos gerenciales aplicados a proyectos de TI.</p>
+                    <a href="actividad1.html">
+                        <button class="activity-button">Ver Actividad 1</button>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Actividad 2 -->
+            <div class="section">
+                <h2>📄 Actividad 2: Informe Gerencial</h2>
+                <div class="section-content">
+                    <p>Informe completo sobre el éxito de Discord y el fracaso de Skype, analizando los factores gerenciales, consecuencias y recomendaciones estratégicas.</p>
+                    <a href="https://drive.google.com/file/d/116WKqhwpKixkWfr9PNZHMQ0HpPG0cc0q/view?usp=sharing" target="_blank">
+                        <button class="activity-button">Ver PDF</button>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Actividad 3 -->
+            <div class="section">
+                <h2>🎥 Actividad 3: Video Explicativo</h2>
+                <div class="section-content">
+                    <p>Video que muestra visualmente el análisis del éxito y fracaso de plataformas de comunicación digital como Discord y Skype.</p>
+
+                    <div style="display: flex; gap: 20px; flex-wrap: wrap; margin-top: 20px;">
+                        <a href="URL_DEL_VIDEO_AQUI" target="_blank">
+                            <button class="activity-button">Ver Video</button>
+                        </a>
+
+                        <a href="https://drive.google.com/file/d/1w_23rlIGFgjjEysumXKefVWUlP0WYu8_/view?usp=sharing" target="_blank">
+                            <button class="activity-button">Ver Diapositiva</button>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
+
